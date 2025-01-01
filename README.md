@@ -110,3 +110,22 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## Output Program
+```
+PS C:\Users\Haikal LNH\Desktop\New Delhi> & "C:/Users/Haikal LNH/AppData/Local/Programs/Python/Python313/python.exe" "e:/program kalkulator sederhana uas"
+Selamat datang di Kalkulator Sederhana!
+Masukkan angka pertama: 5 
+Masukkan angka kedua: 5
+
+Pilih operasi:
+1. Penjumlahan (+)
+2. Pengurangan (-)
+3. Perkalian (*)
+4. Pembagian (/)
+Masukkan pilihan (1/2/3/4): 3
+5.0 * 5.0 = 25.0
+
+Apakah Anda ingin melakukan perhitungan lain? (y/n): n
+Terima kasih telah menggunakan kalkulator!
+PS C:\Users\Haikal LNH\Desktop\New Delhi> 
+```
