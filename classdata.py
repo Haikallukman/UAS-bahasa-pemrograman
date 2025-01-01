@@ -1,4 +1,3 @@
-```python
 # Class untuk menangani operasi matematika dasar
 class Operations:
     @staticmethod
@@ -84,4 +83,3 @@ class Calculator:
         elif choice == '4':
             result = self.operations.divide(num1, num2)
             print(f"{num1} / {num2} = {result}")
-```
