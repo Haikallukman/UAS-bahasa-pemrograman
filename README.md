@@ -2,11 +2,34 @@
 ## Dokumentasi pembuatan program
 https://youtube.com/shorts/1fwiqCNuDrY?si=8RGeCJ61y0AWC2VH
 
+## flowchart 
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Input Angka Pertama]
+    B --> C[Input Angka Kedua]
+    C --> D[Pilih Operasi]
+    D --> E[Validasi Input]
+    E --> F{Input Valid?}
+    F -->|Tidak| B
+    F -->|Ya| G[Lakukan Operasi]
+    G --> H[Tampilkan Hasil]
+    H --> I[Tanya Lanjutkan Perhitungan?]
+    I -->|Ya| B
+    I -->|Tidak| J[End]
+```
+
 ## Penjelasan program
 ### 1. Class Operations: Kelas ini menangani operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Setiap operasi disediakan sebagai metode statis.
 ### 2. Class InputValidation: Kelas ini digunakan untuk memvalidasi input dari pengguna, memastikan bahwa input yang diberikan adalah angka. Jika bukan angka, input akan ditolak.
 ### 3. Class Calculator: Kelas ini menangani alur kalkulator, termasuk meminta input pengguna, memilih operasi yang diinginkan, dan menampilkan hasil operasi.
 ### 4. Fungsi Main: Fungsi utama yang menjalankan program kalkulator. Pengguna akan diminta untuk memasukkan dua angka dan memilih operasi. Setelah selesai, pengguna dapat memilih untuk melakukan perhitungan lagi atau keluar.
+
+## Fitur Program 
+### 1. Validasi Input: Memastikan bahwa input yang dimasukkan oleh pengguna adalah angka yang valid.
+### 2. Pilihan Operasi: Pengguna dapat memilih antara penjumlahan, pengurangan, perkalian, atau pembagian.
+### 3. Looping: Program akan terus berjalan hingga pengguna memilih untuk keluar setelah menyelesaikan perhitungan.
+
 ## Demo program kalkulator sederhana
 
 ```python
