@@ -152,9 +152,7 @@ Pilih operasi:
 3. Perkalian (*)
 4. Pembagian (/)
 Masukkan pilihan (1/2/3/4): 3
-5.0 * 5.0 = 25.0
-
-Apakah Anda ingin melakukan perhitungan lain? (y/n): n
-Terima kasih telah menggunakan kalkulator!
-PS C:\Users\Haikal LNH\Desktop\New Delhi> 
 ```
+
+## penjelasan output
+Dengan struktur modular dan OOP ini, kalkulator menjadi lebih terorganisir dan mudah untuk dikembangkan lebih lanjut jika diperlukan. Anda bisa menambahkan lebih banyak fitur, seperti operasi matematika lainnya atau menyimpan riwayat perhitungan
