@@ -16,7 +16,7 @@ flowchart TD
     G --> H[Tampilkan Hasil]
     H --> I[Tanya Lanjutkan Perhitungan?]
     I -->|Ya| B
-    I -->|Tidak| J[End]
+    I -->|Tidak| J([End])
 ```
 
 ## Penjelasan program
